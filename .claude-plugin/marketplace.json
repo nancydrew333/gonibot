@@ -1,0 +1,29 @@
+{
+  "name": "dpt-to-ceo",
+  "owner": {
+    "name": "Morgan Meese, DPT to CEO",
+    "email": "hello@morganmeese.com"
+  },
+  "metadata": {
+    "description": "Claude plugins for DPT to CEO, Legacy and CEO Club practice owners."
+  },
+  "plugins": [
+    {
+      "name": "gonibot",
+      "source": "./plugins/gonibot",
+      "description": "GoniBot, your first hire. An admin assistant for DPT to CEO practice owners that drafts follow-ups, content, reports and weekly plans, and hands them back for a quick review.",
+      "author": {
+        "name": "Morgan Meese, DPT to CEO",
+        "email": "hello@morganmeese.com"
+      },
+      "homepage": "https://dash.dpttoceo.com/settings/gonibot",
+      "keywords": [
+        "dpt-to-ceo",
+        "practice-owner",
+        "admin",
+        "delegation",
+        "physical-therapy"
+      ]
+    }
+  ]
+}
