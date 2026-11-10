@@ -59,6 +59,9 @@ the coach.
 
 ## Changelog
 
+- **November 2026:** new `/goni-eom` trick. GoniBot pulls the month's numbers, asks the
+  reflection questions one at a time, and drafts a Google Doc in the same order as the End of
+  Month Report form, ready to paste.
 - **October 2026, launch:** GoniBot is installed from the `dpt-to-ceo` marketplace
   (github.com/nancydrew333/gonibot) and updates automatically. The interview is now required
   before any other trick or duty runs, including Pick-me-up. The interview checks that Gmail,

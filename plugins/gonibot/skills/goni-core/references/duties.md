@@ -37,7 +37,7 @@ Programs: F = Foundations (Phase 5 on), L = Legacy, C = CEO Club. "All" = F, L a
 | Referral partner nurture | Mid-month | goni-outreach | Drafts a monthly check-in for each referral partner | All |
 | Past-client reactivation list | Monthly | goni-outreach | 30 to 90 day check-ins for past clients the owner names, first names only | All |
 | Content calendar | Last week of the month | goni-content | Next month's themes, promotions and email topics from goals | All |
-| EOM report prep (opt-in) | Last 2 days of the month | goni-reports | Reads the tracker, does the math, emails every EOM answer as a draft | All |
+| EOM report (opt-in) | 2nd-to-last day of the month | goni-eom | Pulls the numbers, does the math, and drafts a Google Doc in the same order as the EOM form; the owner adds the reflections (`/goni-eom` any time) | All |
 | Hours check | End of month (or `/goni-hours`) | goni-hours | Hours handed off versus the starting estimate | All |
 | EOQ data prep (opt-in) | End of each quarter | goni-reports | Gathers the quarter's numbers for the EOQ review | C |
 | Annual planning data pull | December | goni-reports | 12 months from the tracker into a summary | F, L |

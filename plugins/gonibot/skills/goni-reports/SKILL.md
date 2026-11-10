@@ -1,6 +1,6 @@
 ---
 name: goni-reports
-description: "GoniBot's reporting and admin duties. This skill should be used when a GoniBot scheduled task or the owner asks for \"EOM prep\", \"end of month report\", \"Prep and Reflect\", \"P&R answers\", \"benchmark form\", \"end of week post\", \"KPI post\", \"EOQ data\", \"quarter numbers\", \"weekly numbers report\", \"admin and finance checklist\", \"mid-month pace check\", \"how's the month going\", \"weekly project review\", or \"annual planning data\". Requires goni-core first."
+description: "GoniBot's reporting and admin duties. This skill should be used when a GoniBot scheduled task or the owner asks for \"Prep and Reflect\", \"P&R answers\", \"benchmark form\", \"end of week post\", \"KPI post\", \"EOQ data\", \"quarter numbers\", \"weekly numbers report\", \"admin and finance checklist\", \"mid-month pace check\", \"how's the month going\", \"weekly project review\", or \"annual planning data\". Requires goni-core first."
 metadata:
   version: "0.1.0"
 ---
@@ -29,17 +29,11 @@ Show the math when you calculate:
 Never frame a number as a shortfall. Compare to their own goals and their own past months, never
 to other students. Lead with what moved in the right direction.
 
-## EOM report prep (last 2 days of the month)
+## EOM report
 
-Phase 2: End of Month Reporting.
-1. Check the tracker is updated for the month. If not, offer to help fill it in first (ask for
-   the numbers in one short batch).
-2. Do the math above and draft an answer for every EOM question, using the owner's tracker and
-   `logs/wins.md`.
-3. Leave the reflection and CEO self-check as prompts for the owner to answer in their own
-   words, with a one-line nudge for each.
-4. Email it to the owner as a draft. Message: "your EOM answers are in your drafts. it's due the
-   1st, and it should be about a 15 minute review now."
+The End of Month Report has its own trick now: **goni-eom** (`/goni-eom`). If the owner asks for
+EOM help, or the EOM scheduled task runs, use that skill instead of drafting it here. The math
+above still applies.
 
 ## Prep and Reflect pre-fill (24 hours before each coaching call)
 

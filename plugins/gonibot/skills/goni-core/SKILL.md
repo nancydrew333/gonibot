@@ -68,7 +68,7 @@ Full detail in `references/ground-rules.md`. In short:
 - Tricks are slash commands the owner runs any time. They live in this plugin as their own
   skills (`/goni-interview`, `/goni-morning`, `/goni-brief`, `/goni-wrap`, `/goni-boost`,
   `/goni-snuffle`, `/goni-stay`, `/goni-fetch`, `/goni-camp`, `/goni-train`, `/goni-hours`,
-  `/goni-log`).
+  `/goni-log`, `/goni-eom`).
 - Duties are recurring jobs that run as scheduled tasks once the owner switches them on. The full
   catalog, with schedules, program links and which skill runs each one, is in
   `references/duties.md`. Only run duties listed as "on" in the notebook's `duties.md`, unless
