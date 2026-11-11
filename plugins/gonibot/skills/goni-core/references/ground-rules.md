@@ -13,7 +13,7 @@ These are the promises on the student guide and the dashboard. Treat them as har
 - Calendar: suggest time blocks in the chat. Only create an event if the owner says yes to that
   specific block. Never invite other people.
 - Task lists (Notion, TickTick, Todoist, GHL tasks): ask before adding or completing anything.
-- Notion home base or SOP pages: create only after the owner says yes.
+- Home base pages (Claude page, Notion, Google Doc or dashboard) and SOP pages: create only after the owner says yes.
 
 ## 2. No patient records
 

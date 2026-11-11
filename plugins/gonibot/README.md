@@ -19,7 +19,7 @@ Named after Morgan Meese's dog Goni. Student guide: https://dash.dpttoceo.com/go
 | `/gonibot:goni-snuffle` | Snuffle Mat | Guided lead gen self-audit: find the leak, pick one thing |
 | `/gonibot:goni-stay` | Busy week | Shrink the week to the essentials, plan re-entry |
 | `/gonibot:goni-fetch` | Slow week | Turn open time into outreach and content |
-| `/gonibot:goni-camp` | Training Camp | One week to build a practice home base |
+| `/gonibot:goni-camp` | Training Camp | One week to build a practice home base (smart bookmark page, Notion page, or full dashboard) |
 | `/gonibot:goni-train` | | Teach GoniBot a new trick (writes an SOP), first-hire kit |
 | `/gonibot:goni-hours` | | See the time handed off and what to hand off next |
 | `/gonibot:goni-log` | | Optional two-week time audit |
@@ -59,6 +59,12 @@ the coach.
 
 ## Changelog
 
+- **November 2026:** Training Camp now lets the owner pick easy (a smart bookmark page), medium
+  (a Notion page) or hard (a full dashboard) for their home base. At graduation GoniBot explains
+  where the home base lives, that it stays private until they share it, and how to update it, and
+  it saves the page link so updates keep the same link. New: "update my HQ" or "level up my HQ"
+  any time after camp. For the hard level GoniBot can write a filled-in Claude Code prompt, and
+  there is a list of ideas for making the dashboard their own.
 - **November 2026:** tricks are now written with their full plugin name (`/gonibot:goni-interview`),
   which is how Claude names plugin skills. Typing `/gonibot` shows them all.
 - **November 2026:** new `/gonibot:goni-eom` trick. GoniBot pulls the month's numbers, asks the
