@@ -7,16 +7,16 @@ Programs: F = Foundations (Phase 5 on), L = Legacy, C = CEO Club. "All" = F, L a
 
 | Duty | When | Skill | What GoniBot does | Owner's part | Programs |
 |---|---|---|---|---|---|
-| Power Hour list | Weekdays, owner's Power Hour time (default 7:00am) | goni-leads (also inside `/goni-morning`) | Reads calendar, inbox, task list and tracker, lists today's top 3 business tasks | Reads it in 2 minutes, picks where to start | All |
+| Power Hour list | Weekdays, owner's Power Hour time (default 7:00am) | goni-leads (also inside `/gonibot:goni-morning`) | Reads calendar, inbox, task list and tracker, lists today's top 3 business tasks | Reads it in 2 minutes, picks where to start | All |
 | Lead follow-ups and pipeline check | Weekdays 7:00am | goni-leads | Finds leads with no reply in 2+ days (GHL: conversations inbox incl. Instagram/Facebook DMs, plus open opportunities), drafts a follow-up for each | Edits if needed, sends | All |
 | Inbox triage | Weekdays noon | goni-leads | Labels new inquiries, flags urgent ones, drafts replies to common questions | Approves or tweaks drafts | All |
-| Lead log | Weekdays 6:00pm (also inside `/goni-wrap`) | goni-leads | Asks who reached out today and from where, adds it to the lead log and tracker | Answers in a sentence or voice note | All |
+| Lead log | Weekdays 6:00pm (also inside `/gonibot:goni-wrap`) | goni-leads | Asks who reached out today and from where, adds it to the lead log and tracker | Answers in a sentence or voice note | All |
 
 ## Weekly
 
 | Duty | When | Skill | What GoniBot does | Programs |
 |---|---|---|---|---|
-| Weekly Reset brief | Mon 7:30am (or `/goni-brief`) | goni-brief | Follow-ups first, then last week recap, anything stuck, suggested Big 3 | All |
+| Weekly Reset brief | Mon 7:30am (or `/gonibot:goni-brief`) | goni-brief | Follow-ups first, then last week recap, anything stuck, suggested Big 3 | All |
 | Calendar guard | Mon 7:30am, inside the brief | goni-brief | Suggests Power Hour and CEO time blocks, flags weeks where clinical hours crowd them out | All |
 | Content batch | Mon, after the owner's voice note | goni-content | One voice note into 3 to 5 posts, captions and stories, plus a newsletter draft (Waterfall Method) | All |
 | Google Business Profile post | Mon, with the content batch | goni-content | Turns the voice note into a short GBP post | All |
@@ -37,8 +37,8 @@ Programs: F = Foundations (Phase 5 on), L = Legacy, C = CEO Club. "All" = F, L a
 | Referral partner nurture | Mid-month | goni-outreach | Drafts a monthly check-in for each referral partner | All |
 | Past-client reactivation list | Monthly | goni-outreach | 30 to 90 day check-ins for past clients the owner names, first names only | All |
 | Content calendar | Last week of the month | goni-content | Next month's themes, promotions and email topics from goals | All |
-| EOM report (opt-in) | 2nd-to-last day of the month | goni-eom | Pulls the numbers, does the math, and drafts a Google Doc in the same order as the EOM form; the owner adds the reflections (`/goni-eom` any time) | All |
-| Hours check | End of month (or `/goni-hours`) | goni-hours | Hours handed off versus the starting estimate | All |
+| EOM report (opt-in) | 2nd-to-last day of the month | goni-eom | Pulls the numbers, does the math, and drafts a Google Doc in the same order as the EOM form; the owner adds the reflections (`/gonibot:goni-eom` any time) | All |
+| Hours check | End of month (or `/gonibot:goni-hours`) | goni-hours | Hours handed off versus the starting estimate | All |
 | EOQ data prep (opt-in) | End of each quarter | goni-reports | Gathers the quarter's numbers for the EOQ review | C |
 | Annual planning data pull | December | goni-reports | 12 months from the tracker into a summary | F, L |
 
@@ -55,17 +55,17 @@ Programs: F = Foundations (Phase 5 on), L = Legacy, C = CEO Club. "All" = F, L a
 | Event assistant | When planning an event | goni-content | All |
 | Email nurture builder | When launching a lead magnet | goni-content | F |
 | First-hire kit | When ready to hire | goni-train | L, C |
-| Busy-week mode | `/goni-stay` | goni-stay | All |
-| Slow-week mode | `/goni-fetch` | goni-fetch | All |
-| Training Camp | `/goni-camp` | goni-camp | All |
-| Pick-me-up | `/goni-boost` | goni-boost | All |
+| Busy-week mode | `/gonibot:goni-stay` | goni-stay | All |
+| Slow-week mode | `/gonibot:goni-fetch` | goni-fetch | All |
+| Training Camp | `/gonibot:goni-camp` | goni-camp | All |
+| Pick-me-up | `/gonibot:goni-boost` | goni-boost | All |
 
 ## Switching a duty on
 
 Duties unlock one at a time, never all at once. Start with the 2 or 3 the owner picks in the
 hiring report. Before a duty switches on:
 
-1. Write its SOP with `/goni-train` (4 to 5 questions). A short SOP is fine.
+1. Write its SOP with `/gonibot:goni-train` (4 to 5 questions). A short SOP is fine.
 2. Schedule it (below).
 3. Add or update its row in the notebook's `duties.md` (on, schedule, task name, runs reviewed 0).
 4. If this is the owner's first duty, they've earned **First Fetch** (see badges.md).

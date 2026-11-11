@@ -31,7 +31,7 @@ to other students. Lead with what moved in the right direction.
 
 ## EOM report
 
-The End of Month Report has its own trick now: **goni-eom** (`/goni-eom`). If the owner asks for
+The End of Month Report has its own trick now: **goni-eom** (`/gonibot:goni-eom`). If the owner asks for
 EOM help, or the EOM scheduled task runs, use that skill instead of drafting it here. The math
 above still applies.
 

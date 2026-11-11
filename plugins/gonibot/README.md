@@ -11,18 +11,18 @@ Named after Morgan Meese's dog Goni. Student guide: https://dash.dpttoceo.com/go
 
 | Trick | Dashboard label | What it does |
 |---|---|---|
-| `/goni-interview` | | The 30-minute hiring interview. Start here. |
-| `/goni-morning` | | Guided start of the day (10, 20 or 45 minutes) with a Big 3 |
-| `/goni-brief` | Start my week | Monday brief: follow-ups first, recap, Big 3 |
-| `/goni-wrap` | | Guided end of day: lead log, wins, tomorrow |
-| `/goni-boost` | Pick-me-up | A highlight reel of real wins for rough weeks, pulled from the notebook, Prep and Reflect, EOM reports, Share Your Wins, and what coaches have said |
-| `/goni-snuffle` | Snuffle Mat | Guided lead gen self-audit: find the leak, pick one thing |
-| `/goni-stay` | Busy week | Shrink the week to the essentials, plan re-entry |
-| `/goni-fetch` | Slow week | Turn open time into outreach and content |
-| `/goni-camp` | Training Camp | One week to build a practice home base |
-| `/goni-train` | | Teach GoniBot a new trick (writes an SOP), first-hire kit |
-| `/goni-hours` | | See the time handed off and what to hand off next |
-| `/goni-log` | | Optional two-week time audit |
+| `/gonibot:goni-interview` | | The 30-minute hiring interview. Start here. |
+| `/gonibot:goni-morning` | | Guided start of the day (10, 20 or 45 minutes) with a Big 3 |
+| `/gonibot:goni-brief` | Start my week | Monday brief: follow-ups first, recap, Big 3 |
+| `/gonibot:goni-wrap` | | Guided end of day: lead log, wins, tomorrow |
+| `/gonibot:goni-boost` | Pick-me-up | A highlight reel of real wins for rough weeks, pulled from the notebook, Prep and Reflect, EOM reports, Share Your Wins, and what coaches have said |
+| `/gonibot:goni-snuffle` | Snuffle Mat | Guided lead gen self-audit: find the leak, pick one thing |
+| `/gonibot:goni-stay` | Busy week | Shrink the week to the essentials, plan re-entry |
+| `/gonibot:goni-fetch` | Slow week | Turn open time into outreach and content |
+| `/gonibot:goni-camp` | Training Camp | One week to build a practice home base |
+| `/gonibot:goni-train` | | Teach GoniBot a new trick (writes an SOP), first-hire kit |
+| `/gonibot:goni-hours` | | See the time handed off and what to hand off next |
+| `/gonibot:goni-log` | | Optional two-week time audit |
 
 ## Behind the scenes
 
@@ -34,7 +34,7 @@ Named after Morgan Meese's dog Goni. Student guide: https://dash.dpttoceo.com/go
 | goni-outreach | Outreach list, 100 Challenge, referral partners, past-client reactivation |
 | goni-reports | EOM, Prep and Reflect, benchmarks, KPI post, numbers report, admin checklist, pace check, EOQ, annual data |
 
-Scheduled duties are created per owner during `/goni-interview` and `/goni-train`, one at a time.
+Scheduled duties are created per owner during `/gonibot:goni-interview` and `/gonibot:goni-train`, one at a time.
 
 ## Setup for students
 
@@ -46,7 +46,7 @@ Scheduled duties are created per owner during `/goni-interview` and `/goni-train
    has step-by-step instructions.
 4. Make a GoniBot folder (for example Documents/GoniBot) and set it on the dashboard under
    Settings, GoniBot, so tricks open in it. This is where GoniBot keeps its notebook.
-5. Run `/goni-interview`. Every other trick and duty unlocks once the interview is done.
+5. Run `/gonibot:goni-interview`. Every other trick and duty unlocks once the interview is done.
 
 Scheduled duties run while the computer is on and the Claude desktop app is open, because
 GoniBot's notebook lives in a folder on the owner's computer.
@@ -59,7 +59,9 @@ the coach.
 
 ## Changelog
 
-- **November 2026:** new `/goni-eom` trick. GoniBot pulls the month's numbers, asks the
+- **November 2026:** tricks are now written with their full plugin name (`/gonibot:goni-interview`),
+  which is how Claude names plugin skills. Typing `/gonibot` shows them all.
+- **November 2026:** new `/gonibot:goni-eom` trick. GoniBot pulls the month's numbers, asks the
   reflection questions one at a time, and drafts a Google Doc in the same order as the End of
   Month Report form, ready to paste.
 - **October 2026, launch:** GoniBot is installed from the `dpt-to-ceo` marketplace

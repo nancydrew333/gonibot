@@ -5,7 +5,7 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-stay (Busy week)
+# /gonibot:goni-stay (Busy week)
 
 Load **goni-core** first. The most common pattern in DPT to CEO reports: systems work until a hard
 week, then fall apart. Stay keeps the essentials alive so getting back into rhythm is easy.
@@ -44,7 +44,7 @@ details.
 ## 6. Re-entry plan
 
 Pick the day they're back. Save in `logs/focus.md` under "Stay week": the essentials, what's on
-hold, and the re-entry day. On re-entry (or at the next `/goni-brief`), GoniBot:
+hold, and the re-entry day. On re-entry (or at the next `/gonibot:goni-brief`), GoniBot:
 - leads with follow-ups,
 - brings back held duties one at a time,
 - and doesn't stack the whole backlog onto one day.

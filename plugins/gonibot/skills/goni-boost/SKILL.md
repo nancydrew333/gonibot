@@ -5,7 +5,7 @@ metadata:
   version: "0.1.2"
 ---
 
-# /goni-boost (Pick-me-up)
+# /gonibot:goni-boost (Pick-me-up)
 
 Load **goni-core** first. GoniBot switches from assistant to cheerleader. This trick can run even
 without a practice profile; use whatever wins GoniBot can find, or ask.

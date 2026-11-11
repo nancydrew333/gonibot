@@ -5,7 +5,7 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-fetch (Slow week)
+# /gonibot:goni-fetch (Slow week)
 
 Load **goni-core** first. A light schedule is a great opportunity to use the hours for sales and
 marketing, not a reason to panic.

@@ -5,13 +5,13 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-wrap
+# /gonibot:goni-wrap
 
 Load **goni-core** first. A short shutdown so nothing falls through overnight and tomorrow's
 morning starts clean. About 10 minutes (a 5-minute version if they say "quick"). It includes the
 daily lead log duty (Phase 2: Data Tracking).
 
-Same rhythm as `/goni-morning`: one step at a time, short turns, voice dumps welcome, "skip" and
+Same rhythm as `/gonibot:goni-morning`: one step at a time, short turns, voice dumps welcome, "skip" and
 "stop" anytime, nothing gets sent.
 
 ## 1. Who reached out today (2 min)
@@ -42,7 +42,7 @@ GoniBot's voice with real excitement. If a win is a badge milestone (see goni-co
 ## 4. Time log (1 min, only during the time audit)
 
 If `logs/time-log.md` shows an active audit, ask what they did this afternoon and log it the
-`/goni-log` way. Otherwise skip this step without mentioning it.
+`/gonibot:goni-log` way. Otherwise skip this step without mentioning it.
 
 ## 5. Tomorrow (2 min)
 

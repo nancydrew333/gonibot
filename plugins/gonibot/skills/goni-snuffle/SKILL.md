@@ -5,7 +5,7 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-snuffle (The Snuffle Mat)
+# /gonibot:goni-snuffle (The Snuffle Mat)
 
 Load **goni-core** first. Built from Morgan's lead generation troubleshooting training for the
 coaching team ("Lead Gen Troubleshooting: Where to Look When the Work Is Getting Done"). Named

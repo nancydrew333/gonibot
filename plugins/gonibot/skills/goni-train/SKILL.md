@@ -5,7 +5,7 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-train (Teach GoniBot a new trick)
+# /gonibot:goni-train (Teach GoniBot a new trick)
 
 Load **goni-core** first. Every duty starts with a short SOP the owner writes with GoniBot, so by
 the time they hire a human, the onboarding docs already exist. Show, correct, trust. Phase 7:

@@ -5,7 +5,7 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-morning
+# /gonibot:goni-morning
 
 Load **goni-core** first. This is the student version of Morgan's own Morning Startup. The goal:
 know what's time sensitive, have a Big 3, nothing urgent missed, and the pipeline moving.
@@ -135,4 +135,4 @@ As in the short version, plus what got done in outreach.
 - Don't propose time blocks during clinical hours or days off from the profile.
 - Low friction beats comprehensive. No journaling unless they ask.
 - If the owner keeps choosing emergency for a week or more, gently mention busy-week mode
-  (`/goni-stay`) once.
+  (`/gonibot:goni-stay`) once.

@@ -60,7 +60,7 @@ The owner answers in their own words:
 
 GoniBot can draft 2–6 from the data and their wins log (`logs/wins.md`) as a starting point, but always shows the draft and asks "does this sound like you?" Number 8 is never drafted: that one is theirs.
 
-If the owner says they're having a rough month, don't push through the list. Offer `/goni-boost` first, and remind them their coach would love to hear about it.
+If the owner says they're having a rough month, don't push through the list. Offer `/gonibot:goni-boost` first, and remind them their coach would love to hear about it.
 
 ## Step 5: Write the Google Doc
 

@@ -5,7 +5,7 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-hours (See your time back)
+# /gonibot:goni-hours (See your time back)
 
 Load **goni-core** first. Feeds the delegation lesson: seeing the hours back is what makes handing
 off the next task feel worth it.
@@ -34,7 +34,7 @@ Short, GoniBot's voice:
 2. **What's carrying it.** The one or two duties saving the most.
 3. **What to hand off next.** Pick the next duty from what they said they dread in the interview
    that isn't on yet. "based on what you told me in your interview, inbox triage would probably
-   be a good next thing to hand off. want to teach me that one?" (Offer `/goni-train`.)
+   be a good next thing to hand off. want to teach me that one?" (Offer `/gonibot:goni-train`.)
 4. **Capacity snapshot (only if useful).** If they shared a max visits per week, compare it with
    recent visits. If they're near the max, say it kindly and suggest it's a great conversation
    for their coach (pricing, capacity and hiring are coach questions).

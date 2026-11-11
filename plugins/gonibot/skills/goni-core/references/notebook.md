@@ -20,17 +20,17 @@ lives in a small set of files: the notebook.
 
 | File | What's in it | Written by |
 |---|---|---|
-| `practice-profile.md` | Everything from the interview (see template below) | `/goni-interview`, updated as things change |
-| `voice-samples.md` | 3 to 5 samples of the owner's writing or speech, plus "Notes from edits" | `/goni-interview`, every draft edit |
-| `duties.md` | Each duty: on/off, schedule, scheduled task name, runs reviewed (0 to 3), trusted yes/no | `/goni-interview`, `/goni-train`, `/goni-hours` |
-| `sops/` | One SOP per duty or trick taught, named `sop-<duty>.md` | `/goni-train` |
-| `logs/lead-log.md` | Date, first name or initials, source, what they asked about (leads only) | `/goni-wrap`, lead log duty |
-| `logs/time-log.md` | Time audit entries by bucket | `/goni-log` |
+| `practice-profile.md` | Everything from the interview (see template below) | `/gonibot:goni-interview`, updated as things change |
+| `voice-samples.md` | 3 to 5 samples of the owner's writing or speech, plus "Notes from edits" | `/gonibot:goni-interview`, every draft edit |
+| `duties.md` | Each duty: on/off, schedule, scheduled task name, runs reviewed (0 to 3), trusted yes/no | `/gonibot:goni-interview`, `/gonibot:goni-train`, `/gonibot:goni-hours` |
+| `sops/` | One SOP per duty or trick taught, named `sop-<duty>.md` | `/gonibot:goni-train` |
+| `logs/lead-log.md` | Date, first name or initials, source, what they asked about (leads only) | `/gonibot:goni-wrap`, lead log duty |
+| `logs/time-log.md` | Time audit entries by bucket | `/gonibot:goni-log` |
 | `logs/wins.md` | Dated wins: evals booked, reviews, posts, first-evers, hours handed off | every trick that spots a win |
-| `logs/hours.md` | Starting estimate per task and monthly hours check results | `/goni-interview`, `/goni-hours` |
-| `logs/focus.md` | The one thing picked in Snuffle Mat, Stay or Fetch, with the check-back date | `/goni-snuffle`, `/goni-stay`, `/goni-fetch` |
+| `logs/hours.md` | Starting estimate per task and monthly hours check results | `/gonibot:goni-interview`, `/gonibot:goni-hours` |
+| `logs/focus.md` | The one thing picked in Snuffle Mat, Stay or Fetch, with the check-back date | `/gonibot:goni-snuffle`, `/gonibot:goni-stay`, `/gonibot:goni-fetch` |
 | `badges.md` | Badges announced (id, date) | any trick |
-| `camp.md` | Training Camp day logs and collected links | `/goni-camp` |
+| `camp.md` | Training Camp day logs and collected links | `/gonibot:goni-camp` |
 | `drafts/` | Dated copies of posts, newsletters and briefs | content duties |
 
 Keep files short and skimmable. Newest entries at the top of logs. Never put patient health

@@ -24,7 +24,7 @@ in every message (see `references/voice.md`).
    GoniBot's voice, that the interview comes first, because without it every draft would be a
    guess ("i'd love to help with that, but i don't know your practice yet. can we do my
    interview first? it's about 30 minutes, once, and then everything else unlocks."). Offer to
-   start `/goni-interview` right now. This applies to every trick (including `/goni-boost`) and
+   start `/gonibot:goni-interview` right now. This applies to every trick (including `/gonibot:goni-boost`) and
    every scheduled duty. The only exceptions: the interview itself, and plain questions about
    what GoniBot is or how to set it up, which GoniBot can always answer.
    If the interview was started but not finished, offer to pick up where it left off instead of
@@ -66,9 +66,9 @@ Full detail in `references/ground-rules.md`. In short:
 ## Duties and tricks
 
 - Tricks are slash commands the owner runs any time. They live in this plugin as their own
-  skills (`/goni-interview`, `/goni-morning`, `/goni-brief`, `/goni-wrap`, `/goni-boost`,
-  `/goni-snuffle`, `/goni-stay`, `/goni-fetch`, `/goni-camp`, `/goni-train`, `/goni-hours`,
-  `/goni-log`, `/goni-eom`).
+  skills (`/gonibot:goni-interview`, `/gonibot:goni-morning`, `/gonibot:goni-brief`, `/gonibot:goni-wrap`, `/gonibot:goni-boost`,
+  `/gonibot:goni-snuffle`, `/gonibot:goni-stay`, `/gonibot:goni-fetch`, `/gonibot:goni-camp`, `/gonibot:goni-train`, `/gonibot:goni-hours`,
+  `/gonibot:goni-log`, `/gonibot:goni-eom`).
 - Duties are recurring jobs that run as scheduled tasks once the owner switches them on. The full
   catalog, with schedules, program links and which skill runs each one, is in
   `references/duties.md`. Only run duties listed as "on" in the notebook's `duties.md`, unless
@@ -81,7 +81,7 @@ Full detail in `references/ground-rules.md`. In short:
 
 ## Training: show, correct, trust
 
-Every duty starts with a short SOP (`/goni-train`). For the first three runs of a duty, end the
+Every duty starts with a short SOP (`/gonibot:goni-train`). For the first three runs of a duty, end the
 draft by asking for feedback, then fold each correction into that duty's SOP in the notebook.
 After three reviewed runs, mark the duty "trusted" in `duties.md` and only ask for spot checks.
 

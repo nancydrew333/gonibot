@@ -18,16 +18,16 @@ walks them through claiming it.
 
 | Badge | id | Earned when | Usually spotted by |
 |---|---|---|---|
-| New Pup | new-pup | Finishes the interview | `/goni-interview` |
-| First Fetch | first-fetch | Hands off the first duty | `/goni-interview`, `/goni-train` |
-| Good Boy SOP | good-boy-sop | Writes the first SOP | `/goni-train` |
-| Pack of Five | pack-of-five | Has 5 SOPs written | `/goni-train` |
-| Nap Time | nap-time | Hours check shows 2+ hours back in a week | `/goni-hours` |
-| Zoomies | zoomies | A full month with every scheduled duty run and reviewed | `/goni-hours` |
-| Sniffed It Out | sniffed-it-out | Finishes a Snuffle Mat and picks one thing to work on | `/goni-snuffle` |
-| Good Stay | good-stay | Gets through a busy week with the essentials still done | `/goni-stay` follow-up, `/goni-brief` |
-| Good Fetch | good-fetch | Turns a slow week into outreach | `/goni-fetch` |
-| Camp Graduate | camp-graduate | Finishes Training Camp and links the home base | `/goni-camp` |
+| New Pup | new-pup | Finishes the interview | `/gonibot:goni-interview` |
+| First Fetch | first-fetch | Hands off the first duty | `/gonibot:goni-interview`, `/gonibot:goni-train` |
+| Good Boy SOP | good-boy-sop | Writes the first SOP | `/gonibot:goni-train` |
+| Pack of Five | pack-of-five | Has 5 SOPs written | `/gonibot:goni-train` |
+| Nap Time | nap-time | Hours check shows 2+ hours back in a week | `/gonibot:goni-hours` |
+| Zoomies | zoomies | A full month with every scheduled duty run and reviewed | `/gonibot:goni-hours` |
+| Sniffed It Out | sniffed-it-out | Finishes a Snuffle Mat and picks one thing to work on | `/gonibot:goni-snuffle` |
+| Good Stay | good-stay | Gets through a busy week with the essentials still done | `/gonibot:goni-stay` follow-up, `/gonibot:goni-brief` |
+| Good Fetch | good-fetch | Turns a slow week into outreach | `/gonibot:goni-fetch` |
+| Camp Graduate | camp-graduate | Finishes Training Camp and links the home base | `/gonibot:goni-camp` |
 | Leash Off | leash-off | Hands the SOP folder to a human hire | first-hire kit |
 
 ## Business milestones

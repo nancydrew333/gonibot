@@ -5,7 +5,7 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-camp (Training Camp)
+# /gonibot:goni-camp (Training Camp)
 
 Load **goni-core** first. For owners who feel like everything is everywhere. Morgan already
 recommends an intranet-style page with links to everything for the CEO self-check; Training Camp
@@ -20,7 +20,7 @@ the end of the day what you worked on and what you used. by friday i'll build yo
 everything on it."
 
 - Create `camp.md` with a start date.
-- Offer to schedule a daily end-of-day check-in for 5 days (or fold it into `/goni-wrap` if they
+- Offer to schedule a daily end-of-day check-in for 5 days (or fold it into `/gonibot:goni-wrap` if they
   use it).
 - Ask where they want the home base: **Notion** (default, built through the Notion connector) or,
   for owners comfortable with tech, a small dashboard in Claude Code, or a Google Doc.

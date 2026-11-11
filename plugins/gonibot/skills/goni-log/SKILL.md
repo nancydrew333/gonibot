@@ -5,14 +5,14 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-log (Optional time audit)
+# /gonibot:goni-log (Optional time audit)
 
 Load **goni-core** first. Optional, for owners who feel like they're always running behind and
 want to see where their week actually goes before handing things off. Two weeks, twice a day,
 about a minute each time. Phase 2: Data Tracking (time metrics).
 
 If the owner already uses Toggl or the dashboard's time tracker, offer to read their export
-instead, and only use `/goni-log` to fill gaps.
+instead, and only use `/gonibot:goni-log` to fill gaps.
 
 ## Starting the audit
 
@@ -22,7 +22,7 @@ If `logs/time-log.md` doesn't exist or has no active audit:
    week goes."
 2. Create `logs/time-log.md` with a start date.
 3. Offer to schedule two reminders a day (midday and end of day, skipping days off). Or they can
-   log during `/goni-wrap`.
+   log during `/gonibot:goni-wrap`.
 
 ## Logging an entry
 
@@ -45,6 +45,6 @@ Missed a log? No guilt. A rough guess for the missed half-day is fine, or skip i
 ## Day 14: The hiring report
 
 Total the two weeks by bucket (hours per week and percent). Show it simply, then build the hiring
-report exactly as in `/goni-interview`, step 4, using these real numbers instead of guesses. Save
+report exactly as in `/gonibot:goni-interview`, step 4, using these real numbers instead of guesses. Save
 the baseline to `logs/hours.md`. Then continue with the interview's step 5 (first shift) to
 switch on their first 2 or 3 duties.

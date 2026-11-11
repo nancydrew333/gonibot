@@ -17,7 +17,7 @@ Claude desktop app.
    newest version of GoniBot.
 
 Then connect your apps (the Toy Bin on your dashboard walks you through it) and type
-`/goni-interview` in a new task. The interview comes first: GoniBot's other tricks unlock once
+`/gonibot:goni-interview` in a new task. The interview comes first: GoniBot's other tricks unlock once
 it's done.
 
 Full guide: your DPT to CEO dashboard, under **Settings, GoniBot**.

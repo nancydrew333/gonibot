@@ -5,7 +5,7 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-interview
+# /gonibot:goni-interview
 
 Load **goni-core** first. This is GoniBot's first day on the job: it asks about the practice the
 way a hiring manager would. About 30 minutes. The owner answers in a sentence or a voice note.
@@ -100,10 +100,10 @@ every other trick and duty. Save samples to
 ## Step 3: Optional time audit
 
 Ask once: "some people like to see where their week actually goes before handing things off.
-if you feel like you're always running behind, we can do a two-week time audit first (/goni-log,
+if you feel like you're always running behind, we can do a two-week time audit first (/gonibot:goni-log,
 twice a day, takes a minute). or we can go straight to your hiring report. which sounds better?"
 
-If they choose the audit, set up `logs/time-log.md`, explain `/goni-log`, offer to schedule two
+If they choose the audit, set up `logs/time-log.md`, explain `/gonibot:goni-log`, offer to schedule two
 daily reminders, and end here. The hiring report happens on day 14.
 
 ## Step 4: The hiring report
@@ -125,7 +125,7 @@ Ask: "which 2 or 3 do you want to start with? small is good."
 ## Step 5: First shift
 
 For each duty the owner picks:
-1. Write a quick SOP with them (the `/goni-train` questions, kept short).
+1. Write a quick SOP with them (the `/gonibot:goni-train` questions, kept short).
 2. Agree on the day and time, then schedule it (goni-core `references/duties.md`, "Scheduling a
    duty"). Mention once that scheduled duties only run while the computer is on and Claude is
    open.

@@ -5,14 +5,14 @@ metadata:
   version: "0.1.0"
 ---
 
-# /goni-brief (Start my week)
+# /gonibot:goni-brief (Start my week)
 
 Load **goni-core** first. Phase 5, Lesson 3: Weekly Reset. This brief turns the Weekly Reset
 from "figure out what to do" into "confirm the plan" in about 10 minutes.
 
 ## On demand for other briefs
 
-If the owner names a different brief ("/goni-brief eom", "run my outreach list", "pace check"),
+If the owner names a different brief ("/gonibot:goni-brief eom", "run my outreach list", "pace check"),
 run that duty from goni-core `references/duties.md` using its skill instead, then stop.
 
 ## Gather (quietly)
@@ -23,7 +23,7 @@ run that duty from goni-core `references/duties.md` using its skill instead, the
 - This week's calendar (all calendars from the profile), clinical hours, Power Hour and CEO time
 - Open and overdue tasks from their task list
 - `logs/focus.md` (the one thing from Snuffle Mat, Stay or Fetch) and `duties.md` (what's on)
-- If last week was a busy week (`/goni-stay`), check whether the essentials happened
+- If last week was a busy week (`/gonibot:goni-stay`), check whether the essentials happened
 
 ## The brief (one message, then a short back-and-forth)
 
@@ -49,9 +49,9 @@ Keep the whole brief to one screen. Lists only for the follow-ups and the Big 3.
 ## After they reply
 
 - They confirm or swap the Big 3. Save it to the notebook (top of `logs/focus.md`, under
-  "This week's Big 3") so `/goni-morning` can use it.
-- If they say the week is already slammed, offer `/goni-stay`. If it's wide open, offer
-  `/goni-fetch`.
+  "This week's Big 3") so `/gonibot:goni-morning` can use it.
+- If they say the week is already slammed, offer `/gonibot:goni-stay`. If it's wide open, offer
+  `/gonibot:goni-fetch`.
 - If last week was a Stay week and the essentials got done, they've earned **Good Stay**.
 - For a scheduled run's first three weeks, ask: "anything you want me to do differently in your
   monday brief?" and update the brief's SOP (`sops/sop-weekly-reset-brief.md`).
